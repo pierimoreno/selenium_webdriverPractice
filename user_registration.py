@@ -23,12 +23,12 @@ drive.find_element_by_css_selector('[name="firstName"]').send_keys("Pierina")
 #insert email
 gmail = drive.find_element_by_name("email").click()
 time.sleep(1)
-drive.find_element_by_name("email").send_keys("pierinamoreno93@gmail.com")
+drive.find_element_by_name("email").send_keys("pierinamoreno94@gmail.com")
 
 #insert password
 password = drive.find_element_by_name("password").click()
 time.sleep(1)
-drive.find_element_by_name("password").send_keys("Computadora17.")
+drive.find_element_by_name("password").send_keys("television18.")
 
 #year selection
 drive.find_element_by_css_selector('[class="MuiSelect-root-171 MuiSelect-select-172 MuiSelect-selectMenu-175 MuiInputBase-input-163 MuiInput-input-151"]').click()
