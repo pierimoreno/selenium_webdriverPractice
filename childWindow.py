@@ -12,3 +12,8 @@ print(drive.find_element_by_xpath("//div/h3").text)
 newWindow = drive.window_handles[1]
 drive.switch_to.window(newWindow)
 print(drive.find_element_by_xpath("//div/h3").text)
+drive.close()
+drive.switch_to.window(drive.window_handles[0])
+
+assert "Opening a new window" == drive.find_element_by_tag_name("h3").text
+
